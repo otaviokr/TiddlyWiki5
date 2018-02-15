@@ -13,7 +13,7 @@
   "bin": {
     "tiddlywiki": "./tiddlywiki.js"
   },
-  "main": "./boot/boot.js",
+  "main": "server.js",
   "repository": {
     "type": "git",
     "url": "https://github.com/Jermolene/TiddlyWiki5.git"
@@ -31,6 +31,6 @@
     "node": ">=0.8.2"
   },
   "scripts": {
-    "start": "node /opt/app-root/src/boot/boot.js"
+    "start": "node server.js"
   }
 }
