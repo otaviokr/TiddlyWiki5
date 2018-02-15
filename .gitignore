@@ -1,5 +1,6 @@
 .DS_Store
 .c9/
+.project
 tmp/
 output/
 node_modules/
